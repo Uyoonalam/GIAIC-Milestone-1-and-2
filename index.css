@@ -1,0 +1,85 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.name {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+.container {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 40px;
+    width: 40%;
+    margin: 40px auto;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-right: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+:hover.image{
+    transform: scale(1.1);
+    border:2px solid rgb(179, 179, 179);
+    transition: 0.6s;
+}
+.personal-info-box, .educational-info-box, .work-experience-box, .skills-box {
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.toggle-button {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.toggle-button:hover {
+    background-color: #828282;
+    font-size: 24px;
+    padding: 11.5px 23px;
+    transition: 0.4s;
+}
+.links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+}
+p, ul, li {
+    color: white;
+}
+.copyright {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 30px;
+}
